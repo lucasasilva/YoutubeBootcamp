@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  .header {
+    padding:0 2.8125rem;
+    background-color: #283593;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: wrap; 
+  }
+
+  .statement{
+    background-color:#c5cae9;
+    padding: 3.75rem 2.8125rem;
+    display: flex;
+    justify-content: center;
+    font-style:italic;
+    font-size: 1rem;
+  }
+
+  .statement-conteiner{
+      max-width: 400px;
+  }
+
+  .statement-conteiner p {
+    text-align: left;
+}
+
+  p {
+      text-align: center;
+      
+  }
+  p a{
+      text-decoration: none;
+      display: block;
+      transition: all 0.3s ease-out;
+
+  }
+
+  p a:hover{
+    transform: rotate(6deg);
+  }
+
+  .footer {
+    text-align: center;
+    padding: 1.25rem;
+    color:#999;
+    font-size: .9rem;
+}
